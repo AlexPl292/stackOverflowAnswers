@@ -11,6 +11,8 @@
     <modules>
         <module>swaggerAndLocalTime</module>
         <module>modelMapperAndTime</module>
+        <module>createGenericCollection</module>
+        <module>apachePoiAndTime</module>
     </modules>
 
 
