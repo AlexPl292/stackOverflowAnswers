@@ -9,6 +9,7 @@ import org.modelmapper.ModelMapper;
 
 /**
  * Created by Alex Plate on 26.09.2018.
+ * https://stackoverflow.com/questions/52475371/modelmapper-choose-mapping-based-on-child-class/52522951#52522951
  */
 public class Main {
     public static void main(String[] args) {
