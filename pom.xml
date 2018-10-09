@@ -20,6 +20,9 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>mapListToBoolean</module>
+    </modules>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->

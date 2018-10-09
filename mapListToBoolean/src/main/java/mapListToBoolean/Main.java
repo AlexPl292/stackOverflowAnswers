@@ -25,7 +25,7 @@ public class Main {
 
 
         MyEntity myEntity = new MyEntity();
-        myEntity.setFoos(new HashSet<>(Arrays.asList(1, 2)));
+        myEntity.setFoos(new HashSet<>(Arrays.asList(new Foo(), new Foo())));
 
         MyEntityDto map = modelMapper.map(myEntity, MyEntityDto.class);
         System.out.println("x");

@@ -8,7 +8,7 @@ import java.util.Set;
 class MyEntity {
     private Integer id;
     private String someField;
-    private Set<Object> foos;
+    private Set<Foo> foos;
 
     public Integer getId() {
         return id;
@@ -26,11 +26,11 @@ class MyEntity {
         this.someField = someField;
     }
 
-    public Set<Object> getFoos() {
+    public Set<Foo> getFoos() {
         return foos;
     }
 
-    public void setFoos(Set<Object> foos) {
+    public void setFoos(Set<Foo> foos) {
         this.foos = foos;
     }
 }
